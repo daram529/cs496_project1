@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#FFFFFF"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="146dp"
+        app:srcCompat="@drawable/fortune"
+        android:id="@+id/imageView" />
+
+    <EditText
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center"
+        android:hint="Input your name"
+        android:id="@+id/name" />
+
+    <EditText
+        android:layout_width="265dp"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center"
+        android:hint="Input your birthday(ex.160101)"
+        android:id="@+id/date" />
+
+    <Button
+        android:text="submit"
+        android:layout_width="148dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:id="@+id/button" />
+
+    <ImageButton
+        android:layout_width="220dp"
+        android:layout_height="134dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/nubjugi"
+        android:id="@+id/imageButton" />
+</LinearLayout>
